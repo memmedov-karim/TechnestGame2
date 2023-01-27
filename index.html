@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">Welcome to Hangman Game</h1>
+    <div class="gamecontent">
+
+        <div class="gm imagediv">
+            <img id="image" src="https://i.pinimg.com/736x/e5/c1/0c/e5c10c9e7994d52c4d963339196908b6.jpg" />
+
+        </div>
+        <div class="gm gamediv">
+            <div class="info">
+                <p class="try">Your score <span id="score">0</span></p>
+                <p class="try">You tryed <span  id="trys">0</span> time</p>
+                <p class="cantry">You can try <span id="cantry">13</span></p>
+            </div>
+            <div class="word_section">
+                <h3 class="died">If you can't find the following word in more than 13 attempts, you will die</h3>
+                <p class="word">_ _ _ _</p>
+            </div>
+            <div class="tryedblock">
+                <h2 class="tryhead">You tryed</h2>
+                <p id="tryed">_</p>
+            </div>
+
+            <button id="newgame">New Game</button>
+
+        </div>
+
+    </div>
+    
+
+</body>
+</html>

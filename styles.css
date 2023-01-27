@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+}
+#head{
+    color: white;
+    text-align: center;
+
+}
+.gamecontent{
+    display: flex;
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    border: 3px dotted white;
+}
+.gm{
+    width: 50%;
+    border: 1px solid white;
+}
+.imagediv{
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 3px dotted white;
+    animation: bordanim 2s linear infinite;
+}
+.gamediv{
+    border: none;
+
+}
+img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.info{
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid white;
+    border-top: none;
+    height: 100px;
+    animation: bordanim 1s linear infinite;
+}
+@keyframes bordanim {
+    0%{
+        border-color: blueviolet;
+    }
+    50% {
+        border-color: green;
+    }
+    100%{
+        border-color: brown;
+    }
+}
+#try{
+    color: white;
+}
+.try{
+    text-align: center;
+    color: white;
+}
+.cantry{
+    text-align: center;
+    color:white
+}
+.word_section{
+    width: 80%;
+    margin-left: 10%;
+}
+.died{
+  
+    color: white;
+    text-align: center;
+}
+.word{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#newgame{
+    border: 3px dotted white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
+}
+.tryedblock{
+    width: 70%;
+    border: 1px solid black;
+    margin-left: 15%;
+
+}
+#tryed{
+    text-align: center;
+    color: white;
+}
+.tryhead{
+    text-align: center;
+    color: white;
+}
+
+#newgame:hover{
+    border: 3px solid white;
+    animation: bordanim 1s linear infinite;
+
+}
